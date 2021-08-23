@@ -23245,7 +23245,7 @@ break
 case 4:q=J.jA(a,a==="saraymezat"?"_main":"_saraymezat")
 p=C.b.O(u.F,b)
 p=J.b2(C.j1.bw(C.a5.gf2().bw(p)))
-o=P.dJ("https://api.muzayedetv.vip:8686/api/checkLogin",0,null)
+o=P.dJ("https://muzayedetv.herokuapp.com/api/checkLogin",0,null)
 n=t.bD
 m=P.as(["Content-Type","application/json; charset=UTF-8"],n,n)
 s=5
@@ -23272,7 +23272,7 @@ var $async$GO=P.G(function(h,i){if(h===1)return P.H(i,r)
 while(true)switch(s){case 0:if(b==="saraymezat"){s=1
 break}p=C.b.O(u.F,c)
 p=J.b2(C.j1.bw(C.a5.gf2().bw(p)))
-o=P.dJ("https://api.muzayedetv.vip:8686/api/register",0,null)
+o=P.dJ("https://muzayedetv.herokuapp.com/api/register",0,null)
 n=t.bD
 m=P.as(["Content-Type","application/json; charset=UTF-8"],n,n)
 s=3
@@ -23282,7 +23282,7 @@ case 1:return P.I(q,r)}})
 return P.J($async$GO,r)},
 aso:function(a,b,c,d,e,f,g,h,i,j,k,l,m){var s=0,r=P.K(t.H),q,p,o
 var $async$aso=P.G(function(n,a0){if(n===1)return P.H(a0,r)
-while(true)switch(s){case 0:q=P.dJ("https://api.muzayedetv.vip:8686/api/addAuction",0,null)
+while(true)switch(s){case 0:q=P.dJ("https://muzayedetv.herokuapp.com/api/addAuction",0,null)
 p=t.bD
 o=P.as(["Content-Type","application/json; charset=UTF-8"],p,p)
 s=2
@@ -23292,7 +23292,7 @@ return P.I(null,r)}})
 return P.J($async$aso,r)},
 asp:function(a,b,c,d,e,f,g,h,i){var s=0,r=P.K(t.H),q,p,o
 var $async$asp=P.G(function(j,k){if(j===1)return P.H(k,r)
-while(true)switch(s){case 0:q=P.dJ("https://api.muzayedetv.vip:8686/api/manageProduct",0,null)
+while(true)switch(s){case 0:q=P.dJ("https://muzayedetv.herokuapp.com/api/manageProduct",0,null)
 p=t.bD
 o=P.as(["Content-Type","application/json; charset=UTF-8"],p,p)
 s=2
@@ -76870,8 +76870,8 @@ $C:"$0",
 $R:0,
 $S:2}
 Z.asA.prototype={
-$0:function(){$.mg="/dashboard"
-K.cM(this.a,"/dashboard",t._)},
+$0:function(){$.mg="/admin"
+K.cM(this.a,"/admin",t._)},
 $C:"$0",
 $R:0,
 $S:2}
@@ -76969,7 +76969,7 @@ F.Jd.prototype={
 C:function(a,b){return new X.Nq(new F.a2b(),null)}}
 F.a2b.prototype={
 $3:function(a,b,c){var s=P.as(["/",new F.a1S(),"/login",new F.a1T(),"/register",new F.a1U(),"/dashboard",new F.a23(),"/settings",new F.a24(),"/settingsAccount",new F.a25(),"/settingsPrivacy",new F.a26(),"/settingsSecurity",new F.a27(),"/settingsAbout",new F.a28(),"/settingsHelp",new F.a29(),"/live",new F.a2a(),"/admin",new F.a1V(),"/addAuction",new F.a1W(),"/auction",new F.a1X(),"/soldAuctions",new F.a1Y(),"/addProduct",new F.a1Z(),"/soldProduct",new F.a2_(),"/product",new F.a20(),"/user",new F.a21()],t.bD,t.sy),r=X.afa(C.ad,null),q=K.a9(a).a0,p=B.i8(q.a),o=B.i8(q.b),n=B.i8(q.c),m=B.i8(q.d),l=B.i8(q.e),k=B.i8(q.f),j=B.i8(q.r),i=B.i8(q.x),h=B.i8(q.y),g=B.i8(q.z),f=B.i8(q.Q)
-return new S.pu(s,"/admin",new F.a22(),"Saray Mezat",r.adH(C.jc,C.tp,R.af9(h,g,B.i8(q.ch),f,p,o,n,m,l,k,B.i8(q.cx),j,i).abT(C.d)),!1,null)},
+return new S.pu(s,"/",new F.a22(),"Saray Mezat",r.adH(C.jc,C.tp,R.af9(h,g,B.i8(q.ch),f,p,o,n,m,l,k,B.i8(q.cx),j,i).abT(C.d)),!1,null)},
 $C:"$3",
 $R:3,
 $S:495}
